@@ -1,0 +1,407 @@
+body {
+      background-color: darkgray;
+      margin: 0px;
+      padding: 0px;
+      
+    }
+    p.school{
+      background-color: #232a26;
+      text-align: center;
+      margin: 0px;
+      padding-block: 5px;
+      color: white;
+      font-weight: bold;
+      font-size: 10px;
+      
+    }
+    .header{
+      background-color: #232a26;
+      position: sticky;
+      top:0;
+    }
+    .item {
+      background-color: gray;
+      margin: 0px;
+      padding: 0px;
+      margin: 0px;
+      padding: 0px;
+    }
+    .logo{
+      margin-left: 50px;
+      color:white;
+      margin-left: 50px;
+      
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .item,navs{
+      background-color: violet;
+      text-align: center;
+      padding-block: 5px;
+      
+    }
+    .navigations{
+      background-color: white;
+      padding-block: 10px;
+      margin-inline: 22px;
+      border-radius: 50px;
+      font-size: 10px;
+      font-weight: bold;
+      
+    }
+    a.nav{
+      cursor: pointer;
+      padding: 9px 21.01px;
+      margin-left: -10px;
+    }
+   .home{
+     border-radius: 25px;
+     text-decoration: none;
+     color: white;
+     background-color: #ff7a01;
+     
+   }
+   .insight{
+     color: #12362a;
+     text-decoration: none;
+   }
+   .record{
+     color: #12362a;
+     text-decoration: none;
+   }
+   .program{
+     color: #12362a;
+     text-decoration: none;
+   }
+   .chats{
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+     text-decoration: none;
+     color: #12362a;
+   }
+   
+   .insight:hover{
+     padding-inline: 0px;
+     margin-left: 12px;
+     margin-right: 14px;
+     font-size: 11px;
+     color: #ff7a01;
+     border-bottom: solid #ff7a01 3px;
+     padding-bottom: 1px;
+     transition: all ease 0.3s;
+     
+   }
+    .record:hover{
+      padding-inline: 0px;
+     margin-left: 12px;
+     margin-right: 14px;
+     font-size: 11px;
+     color: #ff7a01;
+     border-bottom: solid #ff7a01 3px;
+     padding-bottom: 1px;
+     transition: all ease 0.3s;
+   }
+    .program:hover {
+      padding-inline: 0px;
+      margin-left: 12px;
+      margin-right: 14px;
+      font-size: 11px;
+      color: #ff7a01;
+      border-bottom: solid #ff7a01 3px;
+      padding-bottom: 1px;
+      transition: all ease 0.3s;
+    }
+     .chats:hover {
+       padding-inline: 0px;
+       margin-left: 12px;
+       margin-right: 14px;
+       font-size: 11px;
+       color: #ff7a01;
+       border-bottom: solid #ff7a01 3px;
+       padding-bottom: 1px;
+       transition: all ease 0.3s;
+       border-radius: 1px;
+     }
+    .item,profile{
+      background-color:  #232a26;
+    }
+    .you{
+     
+      color: #ff7a01;
+      width: 50px;
+      margin-right: 17px;
+      padding-block: 10px;
+      border-radius: 50px;
+      float: right;
+      width: 37px;
+      
+    }
+    img.user:hover{
+      background-color: #ff7a01;
+      border: solid orangered 2px;
+      border-radius: 50px;
+      transition: all ease 4s;
+    }
+    /*_____________________________________________*/
+    .content2{
+      height: 250px;
+      width: 100%;
+      margin: 0px;
+      background-image: url(kids.png);
+      background-size: cover;
+    }
+   .content1{
+     background-color: #12362a;
+     color:  white;
+     padding-bottom: 100px;
+   }
+   .section1{
+     
+   }
+   p.greet{
+     text-align: center;
+     font-weight: bold;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+   }
+
+   .logo1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color:#ff7a01;
+   }
+   .welcome{
+     margin-top: 30px;
+     font-size: 15px;
+     margin-left: -200px;
+   }
+   .Grow{
+     margin-top: 0px;
+     margin-left: 110px;
+     text-align: center;
+     font-weight: bold;
+     font-size: 30px;
+     border-top: solid white 5px;
+     padding-top: 15px;
+     width: 200px;
+   }
+   .greet.explain{
+     color: rgb(18,54,42);;
+     text-align: center;
+     margin-inline: 20px;
+     background-color: whitesmoke;
+     border-radius: 25px;
+     padding: 20px;
+   }
+  .section2{
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    
+  }
+  .stats{
+    
+    margin: 0px;
+  }
+  .statistics{
+    padding-block: 30px;
+  }
+  .one{
+    justify-content: center;
+    align-items: center;
+    
+    
+    border-bottom: solid white 3px;
+    
+    display: inline-flex;
+    height: 100px;
+    width: 100%;
+  }
+  .first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 5px;
+    border-radius: 30px;
+    width: 40%;
+    height: 130px;
+    
+  }
+  .second{
+    
+    width: 60%;
+    height: 130px;
+    margin: 5px 5px;
+  }
+   p.over{
+    margin-left: 0px;
+    margin: 10px 0px 0px 10px;
+    
+    font-weight: bold;
+  }
+  .second h1{
+    
+    color: #ff7a01;
+    font-size: 100px;
+    margin: 0px;
+    text-align: center;
+     font-weight: bold;
+     line-height: 70px;
+  }
+  p.maln{
+    font-weight: bold;
+    right: 10px;
+    margin-left: 50px;
+  }
+  .two{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    border-bottom: solid white 3px;
+    display: inline-flex;
+    height: 100px;
+  }
+  p.weekly{
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: solid white 10px;
+    width: 100px;
+    margin: 10px;
+  }
+  p.progress{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: solid white 10px;
+    width: 140px;
+    color: #ff7a01;
+  }
+  .tri{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    display: inline-flex;
+    height: 100px;
+    
+  }
+  p.chat{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: solid white ;
+    width: 140px;
+    color: #ff7a01;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  p.with{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 140px;
+    color: white;
+  }
+     
+     @media only screen and (min-width: 768px){
+       body{
+         background-color: #d8d0c5;
+       }
+     .you{
+       position: fixed;
+       right:10px;
+       top: 20px;
+     }
+     .head{
+       display: inline-flex;
+    
+    }
+    .header{
+      padding:7px;
+    }
+    .navigations{
+      padding-inline: 12px;
+      padding-block: 12px;
+    }
+    .navs{
+      position: fixed;
+      right: 300px;
+    }
+    .content2{
+      display: none;
+      height: 33Vh;
+      margin: 0px;
+      
+    }
+    .section1{
+      float: right;
+      max-width: 400px;
+      background-color: rgb(18,54,42);
+      margin-top: -50px;
+      border-bottom-left-radius: 100% 100%;
+      height: 500px;
+    
+    }
+    .content1{
+      background-image: url(kids.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         margin-top: 20px;
+      
+    }
+    .section2{
+      
+      max-width: 400px;
+      margin-left: 50px;
+      background-color: rgb(0,0,0,0.4);
+    }
+    .stats{
+      margin-top: 10px;
+    }
+    p.Grow{
+      margin-left: 60px;
+      font-size: 40px;
+      width: 290px;
+    }
+    .greet.explain{
+       width: 260px;
+       font-size: 15px;
+        border-radius: 25px;
+        margin-left: 40px;
+     }
+     .grad{
+       height: 600px;
+       width: 100%;
+       border-bottom: solid Black 5px;
+     }
+     .kinder{
+       background-color: lightblue;
+     }
+    .g1{
+       background-color: lightpink;
+     }
+     .g2{
+       background-color: lightgray;
+     }
+     .g3{
+       background-color: lightgreen;
+     }
+     .g4 {
+       background-color: lightgoldenrodyellow;
+     }
+     .g5 {
+       background-color: lightsalmon;
+     }
+     .g6{
+       background-color: lightsteelblue;
+     }
+     }
+     

@@ -1,0 +1,143 @@
+     body {
+      background-color: white ;
+      margin: 0px;
+      padding: 0px;
+      
+    }
+    .header{
+      background-color:  #232a26;
+      
+    }
+    .head{
+      padding: 10px 0px 10px 0px;
+      ; 
+      width: 100%;
+    }
+      .slogo{
+       background-image: url(slogo.png);
+       background-size: cover;
+      width: 40px;
+      height: 40px;
+      
+     }
+     .dlogo{
+       background-image: url(dlogo.png);
+       background-size: cover;
+      width: 40px;
+      height: 40px;
+      margin-left: 20px;
+     }
+     .me{
+       display: inline-block;
+       
+       
+       margin-inline: 50px;
+     }
+     .twologo{
+       
+       padding-left: 80px;
+       width: 250px;
+       height: 40px;
+       
+     }
+    .meone{
+      display: inline-block;
+      
+      
+      
+    }
+    p.school{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:  #232a26;
+      text-align: center;
+      margin: 0px;
+      padding: 20px 0px 10px 0px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-bottom: solid 3px ;
+      
+    }
+
+    .logo{
+      margin-left: 50px;
+      color:white;
+      margin-left: 50px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  
+ 
+    .item,profile{
+      background-color:  #232a26;
+      
+    }
+    .you{
+      
+      
+      color:  lightsalmon;
+      width: 50px;
+      margin-right: 40px;
+      padding: 10px 20px;
+      border-radius: 50px;
+      float: right;
+      width: 37px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    
+    .context{
+      display: flex;
+     justify-content: center;
+     align-items: center;
+      background-color: ghostwhite;
+      padding: 40px 100px;
+      height: 380px;
+    }
+   .outer{
+     margin-top: -120px;
+     text-align: center;
+     background-color: white;
+     width: 350px;
+     height: 260px;
+     border-radius: 20px;
+     -webkit-box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.61); 
+box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.61);
+   }
+   .outer p{
+     color: #12362a ;
+     font-weight: bold;
+     
+   }
+     .outer p a{
+     color: darkorange ;
+     
+   }
+   .inner{
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #12362a;
+     width: 330px;
+     min-height: 330px;
+     border-radius: 20px;
+   }
+   p.dont{
+     color: white;
+   }
+   input{
+     padding: 5px 20px;
+     border-radius: 5px;
+   }
+   .submit{
+     background-color: darkorange;
+     border: none;
+     padding: 10px 30px;
+     border-radius: 5px;
+     color: white;
+     font-weight: bold;
+   }

@@ -1,0 +1,259 @@
+     body {
+      background-color: white ;
+      margin: 0px;
+      padding: 0px;
+      
+    }
+    .header{
+      background-color:  #232a26;
+      background-color: #12362a;
+      background-color: seagreen;
+      
+      padding-bottom: 20px;
+    }
+    .head{
+      padding: 10px 0px 10px 0px;
+    
+      width: 100%;
+    }
+    .twologo1{
+      width: 100px;
+      margin-top: -40px;;
+      margin-left: 160px;
+    }
+    .twologo{
+      width: 40px;
+       
+     }
+     .meone{
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+    }
+      .slogo{
+       background-image: url(slogo.png);
+       background-size: cover;
+      width: 40px;
+      height: 40px;
+     }
+     .dlogo{
+       background-image: url(dlogo.png);
+       background-size: cover;
+      width: 40px;
+      height: 40px;
+     }
+     .me{
+       display: inline;
+       
+       
+       
+     }
+     
+     .two{
+      margin-left: 200px;
+      background-color: blue;
+      padding: 10px 5px 0px 5px;
+     }
+    
+    p.school{
+     
+      background-color:  #232a26;
+      text-align: center;
+      margin: 0px;
+      padding: 20px 0px 10px 0px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-bottom: solid 3px ;
+      
+    } 
+    .logo{
+      margin-left: 10px;
+      color:white;
+      font-weight: bold;
+      font-size: 20px;
+      width: 180px;
+    }
+  
+ 
+    
+    
+    .you{
+      color:  rgb(253, 227, 216);
+      width: 50px;
+      margin-top: 10px;
+      border: solid white 3px;
+      margin-right: 40px;
+      padding: 10px 20px;
+      border-radius: 50px;
+      float: right;
+      width: 37px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+     
+    }
+    .you:hover{
+      background-color: whitesmoke;
+      font-weight: bold;
+      color: orangered;
+    }
+    .context{
+      
+      
+    }
+    .init{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+     .initialpic{
+      
+      background-size: cover;
+      width:400px;
+      height: 200px;
+       min-width: 200px;
+     }
+     .hot{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+     .welc{
+      background-size: cover;
+       width: 300px;
+       height: 150px;
+       min-width: 200px;
+     }
+     
+     .initc{
+       
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+
+     .initialcontext{
+       color: seagreen;
+      
+       text-align: center;
+       margin-inline: 30px ;
+     }
+     h2.wlc{
+       
+     }
+     .getstarted{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+     
+      padding-top: 20px;
+     
+       
+     }
+     .mid{
+      width: 100%;
+       background-color: bisque;  
+       height: 600px; 
+       background: -moz-linear-gradient(45deg, #CCDBC1 0%, #E9FFE3 35%, #F6F6F6 100%);
+background: -webkit-linear-gradient(45deg, #CCDBC1 0%, #E9FFE3 35%, #F6F6F6 100%);
+background: linear-gradient(45deg, #CCDBC1 0%, #E9FFE3 35%, #F6F6F6 100%);
+     }
+     .explain{
+      width: 350px;
+      color: darkslategrey;
+      
+     }
+     .nacer {
+      display: inline-block;
+      
+     }
+     .start{
+      
+      background-color: seagreen;
+      color:  white;
+      width: 100px;
+      
+      padding: 10px 20px;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .start:hover{
+      background-color: darkseagreen;
+      padding: 11px 21px;;
+      font-size:17px;
+      margin-left:-5px;
+    }
+    .button {
+      display: flex;
+      justify-content: center;
+     
+      text-align: center;
+    }
+    @media only screen and (min-width: 780px){  
+      .logo{
+        margin-left: 50px;
+      }
+      
+      .initialcontext{
+        padding-right: 30px;
+        border-right: solid 3px orangered ;
+      }
+      .init{
+        float: left;
+      }
+      .initialpic {
+      margin: 30px 0px 0px 30px;
+      width:550px;
+      height: 350px;
+     }                                                               
+     .twologo1{
+      margin-top: -30px;
+      margin-left: 230px;
+      width: 300px;
+    }
+    .dlogo{
+      margin-left: 20px;
+    }
+    
+     .getstarted{
+     
+      width: 100%;
+      background-color: antiquewhite;
+     
+    
+      
+      background: #CCDBC1;
+background: -moz-linear-gradient(45deg, #CCDBC1 0%, #E9FFE3 35%, #F6F6F6 100%);
+background: -webkit-linear-gradient(45deg, #CCDBC1 0%, #E9FFE3 35%, #F6F6F6 100%);
+background: linear-gradient(45deg, #CCDBC1 0%, #E9FFE3 35%, #F6F6F6 100%);
+    }
+    .nacer p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 500px;
+      margin-left: -50px;
+      font-size: 25px  ;
+    }
+    .wlc{
+      font-size: 40px  ;
+    }
+   
+  }
+    @media only screen and (min-width: 1200px){
+      .initialpic {
+        margin: 30px 0px 0px 170px;
+        
+       }   
+       .welc { 
+        height: 250px;
+        width: 500px;
+       }              
+    }

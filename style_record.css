@@ -1,0 +1,775 @@
+body {
+      background-color: white;
+      margin: 0px;
+      padding: 0px;
+      
+    }
+    p.school{
+      background-color: #232a26;
+      text-align: center;
+      margin: 0px;
+      padding-block: 5px;
+      color: white;
+      font-weight: bold;
+      font-size: 10px;
+      
+    }
+    .header{
+      background-color: #232a26;
+      position: sticky;
+      top:0;
+    }
+    .item {
+      background-color: gray;
+      margin: 0px;
+      padding: 0px;
+      margin: 0px;
+      padding: 0px;
+    }
+    .logo{
+      margin-left: 50px;
+      color:white;
+      margin-left: 50px;
+      
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .item,navs{
+      background-color: violet;
+      text-align: center;
+      padding-block: 5px;
+      
+    }
+    .navigations{
+      background-color: white;
+      padding-block: 10px;
+      margin-inline: 22px;
+      border-radius: 50px;
+      font-size: 10px;
+      font-weight: bold;
+      
+    }
+    a.nav{
+      cursor: pointer;
+      padding: 9px 21.01px;
+      margin-left: -10px;
+    }
+   .home{
+     border-bottom-left-radius: 8px;
+     border-top-left-radius: 8px;
+     text-decoration: none;
+      color: #12362a;
+     background-color: white;
+     
+   }
+   .record{
+     border-radius: 25px;
+     color: white;
+     text-decoration: none;
+     background-color: #ff7a01;
+   }
+   .insight{
+     color: #12362a;
+     text-decoration: none;
+   }
+   .program{
+     color: #12362a;
+     text-decoration: none;
+   }
+   .chats{
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+     text-decoration: none;
+     color: #12362a;
+   }
+   
+   .home:hover{
+    padding-inline: 0px;
+    margin-left: 12px;
+    margin-right: 14px;
+    font-size: 11px;
+    color: #ff7a01;
+    border-bottom: solid #ff7a01 3px;
+    padding-bottom: 1px;
+    transition: all ease 0.3s;
+    border-bottom-left-radius: 1px;
+   }
+    .insight:hover{
+      padding-inline: 0px;
+     margin-left: 12px;
+     margin-right: 14px;
+     font-size: 11px;
+     color: #ff7a01;
+     border-bottom: solid #ff7a01 3px;
+     padding-bottom: 1px;
+     transition: all ease 0.3s;
+   }
+    .program:hover {
+      padding-inline: 0px;
+      margin-left: 12px;
+      margin-right: 14px;
+      font-size: 11px;
+      color: #ff7a01;
+      border-bottom: solid #ff7a01 3px;
+      padding-bottom: 1px;
+      transition: all ease 0.3s;
+    }
+     .chats:hover {
+       padding-inline: 0px;
+       margin-left: 12px;
+       margin-right: 14px;
+       font-size: 11px;
+       color: #ff7a01;
+       border-bottom: solid #ff7a01 3px;
+       padding-bottom: 1px;
+       transition: all ease 0.3s;
+       border-bottom-right-radius: 1px;
+     }
+    .item,profile{
+      background-color:  #232a26;
+    }
+    .you{
+     
+      color: #ff7a01;
+      width: 50px;
+      margin-right: 17px;
+      padding-block: 10px;
+      border-radius: 50px;
+      float: right;
+      width: 37px;
+      
+    }
+    img.user:hover{
+      background-color: #ff7a01;
+      border: solid orangered 2px;
+      border-radius: 50px;
+      transition: all ease .5s;
+    }/*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/
+      .insights {
+      background-color: white;
+      height: 500px;
+      margin:0px;
+      padding: 0px;
+    }
+    .container{
+      height: 400px;
+      
+      background-color: ghostwhite;
+      margin:0px;
+      padding: 0px;
+    }
+    .a{
+      display: inline-block;
+    }
+   .twobox{
+      display: inline-block;
+  
+      background-color: white;
+      
+    }
+    
+    .huhu{
+      
+      background-color: white;
+      width: 100%;
+      margin:0px;
+      padding: 0px;
+    }
+    .greenicon{
+      float: left;
+       -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+      padding: 5px;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+    .green{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .greenpic{
+      width: 30px;
+     margin: 5px;
+     
+    }
+    .greenicon p{
+      display: none;
+    }
+    .levels{
+      margin-top: 0px;
+      width: 85%;
+      padding-top: 20px;
+  overflow-x: auto;
+  white-space: nowrap; 
+  height: 40px;
+  float: right;
+  
+    }
+    .levels a{
+      color: black;
+      text-align: center;
+      padding: 10px 15px;
+      margin: 5px;
+      
+      border-radius: 10px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+    .grades{
+      font-weight: bold;
+      color: darkgreen;
+      width: 100%;
+      margin:0px;
+      padding: 0px;
+      float: left;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+     .levels a{
+      display: inline;
+      
+    }
+    
+    
+    .reco{
+      background-color: #12372a;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      padding-block: 10px;
+    }
+    
+    .recs{
+      width: 100%;
+      color: white;
+      
+      margin:0px;
+      padding-top: 10px;
+      padding-bottom: 2px;
+      padding-left: 20px;
+      
+    }
+    
+    .records{
+      margin: 15px;
+      padding: 0px;
+      width: 92%;
+      height: 600px;
+      background-color: white;
+      border-radius: 20px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+    button.addss{
+      float : right;
+      padding: 5px 15px 5px 15px;
+      border-radius: 50px;
+      background-color: #49742c;
+      color: white;
+      margin: -40px 25px 0px 0px;
+      border: none;
+      font-weight: bold;
+    }
+     /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/
+    /*_____________________________________________*/
+       .form-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  background-color: #353535;
+  padding: 20px;
+  width: 380px;
+}
+.alert{
+  color: white;
+}
+.alert bold{
+  font-weight: bold;
+}
+
+.photos{
+  margin-left: 15px;
+  height: 120px;
+  float: left;
+  padding: 0px 15px 0px 15px;
+  
+}
+.form-container {
+  max-width: 100%;
+}
+label , h2{
+  color: white;
+}
+ input[type=text], .form-container input[type=file], .form-container select {
+  
+  padding: 10px;
+ 
+  border: none;
+  background: #f1f1f1;
+}
+.input#picture{
+  
+}
+label.name{
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+input#name{
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 45%;
+}
+label.agesex{
+  margin: 10px 40px 10px 20px;
+  text-align: center;
+  float: left;
+}
+select#sex{
+  margin: 0px 5px 0px 10px;
+  width: 80px;
+  float: left;
+}
+input#age{
+  margin: 0px 15px 0px 0px;
+  
+  width: 50px ;
+  float: right;
+  
+}
+input#picture{
+ width: 127px;
+ margin-top: -10px;
+ margin-left: 15px;
+}
+.labeling{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 5px;
+  text-align: center;
+}
+label.hwgl{
+  width: 100px;
+  color: white;
+  position: relative;
+}
+.primary{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 15px;
+}
+.hwg{
+  width: 70px;
+  background-color: green;
+  padding-inline: 30px;
+}
+.cpp{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+p.cp{
+  color: white;
+  width: 80%;
+  border-bottom: solid white 1px;
+}
+
+.pn{
+  height: 30px;
+  margin-left: 13px;
+  width: 179px;
+  outline: none;
+}
+.gn{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  
+}
+.relation{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-right: 55px;
+}
+.phone{
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.btn {
+  background-color: #ff7a01;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 0px 30px 0px 0px;
+  font-weight: bold;
+  margin-top: 30px;
+  width: 130px;
+  
+  float: right;
+  border-radius: 10px;
+}
+
+.btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.cancel {
+  width: 30px;
+  height: 30px;
+  float: right;
+  background-color: #353535
+;
+  margin-top: -40px;
+}
+.cancel p {
+  color: #797776;
+  margin-top: -20px;
+  margin-right: 70px;
+  text-align: center;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: #d9d9d9;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+  
+  
+  
+  
+  
+  
+     @media only screen and (min-width: 768px){
+       body{
+         
+       }
+     .you{
+       position: fixed;
+       right:10px;
+       top: 20px;
+     }
+     .head{
+       display: inline-flex;
+    
+    }
+    .header{
+      padding:7px;
+    }
+    .navigations{
+      padding-inline: 12px;
+      padding-block: 12px;
+    }
+    .navs{
+      position: fixed;
+      right: 300px;
+    }
+   
+     .insights {
+      background-color: white;
+      height: 500px;
+      
+      margin:0px;
+      padding: 0px;
+    }
+    .container{
+      height: 400px;
+      
+      background-color: ghostwhite;
+      margin:0px;
+      padding: 0px;
+    }
+    .a{
+      display: inline_block;
+    }
+   .twobox{
+      display: inline-block;
+  
+      background-color: white;
+      
+    }
+    
+    .huhu{
+      
+      background-color: white;
+      width: 100%;
+      margin:0px;
+      padding: 0px;
+    }
+    .greenicon{
+      float: none;
+      box-shadow: none;
+      margin: 0px;
+    }
+    .green{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .greenpic{
+      margin-left: 0px;
+     height: 110px;
+     width: 110px;
+     margin-top: 15px;
+    }
+    .greenicon p{
+      font-size: 20px;
+      font-weight : bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0px;
+    }
+    .levels{
+      
+      padding: 0pc;
+      margin-top: -20px;
+      width: 100%;
+      overflow-x: none;
+      white-space: none;
+      float: none;
+      height: 400px;
+    }
+    .levels a{
+      
+      color: black;
+      text-align: center;
+      padding: 15px 20px;
+      margin: 15px;
+      border-radius: 10px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+    .grades{
+      font-weight: bold;
+      color: darkgreen;
+      width: 20%;
+      margin:0px;
+      padding: 0px;
+      float: left;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+     .levels a{
+      display: block;
+    }
+    
+    
+    .reco{
+      background-color: #12372a;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      padding-block: 10px;
+    }
+    
+    .recs{
+      width: 100%;
+      color: white;
+      
+      margin:0px;
+      padding-top: 10px;
+      padding-bottom: 2px;
+      padding-left: 20px;
+      
+    }
+    
+    .records{
+      margin: 15px;
+      padding: 0px;
+      width: 76%;
+      height: 450px;
+      background-color: white;
+      border-radius: 20px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+     
+     /* Styles for the registration form */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  background-color: #353535;
+  padding: 20px;
+  width: 660px;
+}
+.alert{
+  color: white;
+}
+.alert bold{
+  font-weight: bold;
+}
+
+.photos{
+  margin-left: 15px;
+  height: 170px;
+  float: left;
+  padding: 0px 15px 0px 15px;
+  
+}
+.form-container {
+  max-width: 100%;
+}
+label , h2{
+  color: white;
+}
+ input[type=text], .form-container input[type=file], .form-container select {
+  
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.input#picture{
+  
+}
+label.name{
+  margin-left: 60px;
+  margin-top: 50px;
+  
+}
+input#name{
+  margin-top: 5px;
+  margin-left: 60px;
+  width: 45%;
+}
+label.agesex{
+  margin: 0px 90px 0px 90px;
+  text-align: center;
+}
+select#sex{
+  margin: 0px 30px 0px 75px;
+  float: none;
+}
+input#age{
+  width: 60px ;
+  margin: 0px 90px 0px 90px;
+  float: none;
+}
+input#picture{
+ width: 175px;
+ margin-top: 30px;
+ margin-left: -195px;
+}
+.labeling{
+  display: flex; 
+  justify-content: none;
+  align-items: none;
+  margin-top: -20px;
+  margin-left: 170px;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+label.hwgl{
+  width: 30px;
+  color: white;
+  margin: -50px 50px 0px 50px;
+  position: none;
+}
+.primary{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+  margin-right: 50px;
+  margin-top: -30px;
+}
+.hwg{
+  width: 15%;
+  background-color: green;
+  padding-inline: 30px;
+}
+.cpp{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+p.cp{
+  color: white;
+  width: 80%;
+  border-bottom: solid white 1px;
+}
+.gn{
+  margin-left: 30px;
+}
+.pn{
+  height: 30px;
+  margin-left: 13px;
+  width: 179px;
+  outline: none;
+}
+.phone{
+  margin-left: 30px;
+}
+.btn {
+  background-color: #ff7a01;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 0px 30px 0px 0px;
+  
+  margin-top: 30px;
+  width: 130px;
+  
+  float: right;
+  border-radius: 10px;
+}
+.relation{
+  margin-left: 20px;
+  padding: 0px;
+}
+.btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.cancel {
+  width: 30px;
+  height: 30px;
+  float: right;
+  background-color: #353535
+;
+  margin-top: -40px;
+}
+.cancel p {
+  color: #797776;
+  margin-top: -20px;
+  margin-right: 70px;
+  text-align: center;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: #d9d9d9;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+button.addss{
+  float : right;
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+  background-color: #49742c;
+  color: white;
+  margin: -40px 250px 0px 0px;
+  border: none;
+  font-weight: bold;
+}
+/* Other CSS styles as needed */
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style_record.css">
+  <title>HTML</title>
+   
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+ <style>
+        
+ </style>
+</head>
+
+<body>
+  
+  
+  <div class="header">
+    <p class="school">POPONTO ELEMENTARY SCHOOL</p>
+    <div class="head">
+     <div class="item profile">
+      <a class="you"><img src="user.png" class="user" style="height:35px;width:35px;border-radius: 25px;padding: 0px;border: solid 2px white;border-radius: 50px;"></a>
+    </div>
+    <div class="item " >
+      <div class="logo">Grow <img src="logo.png" style="height:30px;width:35px;border-radius: 25px;padding: 0px;"> Well<a style="color:#ff7a01 ">.</a></div>
+    </div>
+    <div class="item navs">
+      <nav class="navigations">
+        <a class="nav home" href="home.html">HOME</a>
+        <a class="nav insight" href="insight.html">INSIGHTS</a>
+        <a class="nav record" href="record.html">RECORD</a>
+        <a class="nav program" href="program.html">PROGRAM</a>
+        <a class="nav chats" href="chats.html">CHATS</a>
+      </nav>
+    </div>
+   </div>
+  </div>
+   
+   <div class="insights">
+     <div class="container">
+       
+       <div class="twobox grades ">
+         <div class="huhu">
+         <div class="greenicon">
+           <div class="green">
+              <img class="greenpic" src="Boy.png">
+           </div>
+          
+          <p style="margin-top: 5px;text-indent: 2px: text-align: center;color:#49742c;"> STUDENTS</p>
+         </div>
+         <div class="levels">
+           <a> Kindergarten</a>
+           <a> Grade 1</a>
+           <a> Grade 2</a>
+           <a> Grade 3</a>
+           <a> Grade 4</a>
+           <a> Grade 5</a>
+           <a> Grade 5</a>
+         </div>
+         </div>
+       </div>
+       <div class="twobox records">
+         
+         <div class="reco">
+           <a class="recs"> Records</a>
+         </div>
+         <div class="add">
+           <h3 style="margin-left: 40px;width: 200px;">Kindergarten</h3>
+<button class="addss" onclick="openForm()">ADD </button>
+<div id="studentList"></div>
+
+<!-- Registration Form Popup -->
+<div class="form-popup" id="registrationForm">
+  <form action="process.php" class="form-container" method="post" enctype="multipart/form-data">
+   <p class="alert"><bold>ADD STUDENT</bold><small> Please provide the right details!</small></p>
+     <button type="button" class="btn cancel" onclick="closeForm()"><p>×</p>     </button>
+     
+   
+      <label for="picture">  <img class="photos" style="background-color: #d9d9d9;" src="photo.png"></label>
+   
+    
+    <label class="name" for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter name" required>
+   <br>
+    <label class="agesex" for="sex">Sex:</label>
+      <label  class="agesex"  for="age">Age:</label>
+      <br>
+    <select id="sex" name="sex" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    
+   
+    <input  placeholder="age" type="text" id="age" name="age" required>
+    
+     <input class="profile" type="file" id="picture" name="picture" accept="image/*" required>
+     <div class="labeling">
+       <label class="hwgl" for="height">Height:</label>
+    <label class="hwgl" for="weight">Weight:</label>
+    <label class="hwgl" for="grade">Grade:</label>
+     </div>
+    
+    <div class="primary">
+      <input class="hwg" type="text" id="height" name="height" placeholder=".cm"  required>
+    <input class="hwg" type="text" id="weight" name="weight" placeholder=".kg" required>
+    <input class="hwg" type="text" id="grade" name="grade" placeholder="grade" required>
+    </div>
+   
+   <div class="cpp"> <p class="cp"> Contact person</p></div>
+   
+     
+    <label class="gn" for="gname">Guardians Name:</label>
+    <input type="text" id="gname" name="gname" placeholder="Enter Guardian's name" required>
+  <label class="relation" for="relation">Relation:</label>
+    <input type="text" id="relation" name="relation" placeholder="ex:mother/sister/etc"  required><br>
+     <label class="phone" for="phone_number">Phone number:</label>
+     <input class="pn" id="phone" type="tel" name="phone_number" placeholder="+63" required>
+    <button type="submit" class="btn">Submit</button>
+   
+   
+  </form>
+</div>
+
+<script src="main.js"></script>
+         </div>
+       </div>
+      </div>
+       
+       
+       
+       
+     </div>
+   </div>
+   
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

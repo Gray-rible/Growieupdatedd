@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Management</title>
+</head>
+<body>
+    <h2>File Management</h2>
+    
+    <!-- Form to upload a file -->
+    <form action="t.php" method="post" enctype="multipart/form-data">
+        Select File to Upload:
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload File" name="submit">
+    </form>
+
+    <h3>Uploaded Files</h3>
+    <ul>
+        <?php
+        // List all files in the "uploads" directory
+        $files = scandir("uploads");
+        foreach ($files as $file) {
+            if ($file != "." && $file != "..") {
+                echo "<li><a href='uploads/$file'>$file</a> ";
+                echo "<a href='edit.php?filename=$file'>Edit</a> ";
+                echo "<a href='delete.php?filename=$file'>Delete</a> ";
+                echo "<a href='rename.php?filename=$file'>Rename</a></li>";
+            }
+        }
+        ?>
+    </ul>
+</body>
+</html>

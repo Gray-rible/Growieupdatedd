@@ -1,0 +1,1003 @@
+body {
+      background-color: white;
+      margin: 0px;
+      padding: 0px;
+      
+    }
+    p.school{
+      background-color: #232a26;
+      text-align: center;
+      margin: 0px;
+      padding-block: 5px;
+      color: white;
+      font-weight: bold;
+      font-size: 10px;
+      
+    }
+    .header{
+      background-color: #232a26;
+      position: sticky;
+      top:0;
+    }
+    .item {
+      background-color: gray;
+      margin: 0px;
+      padding: 0px;
+      margin: 0px;
+      padding: 0px;
+    }
+    .logo{
+      margin-left: 50px;
+      color:white;
+      margin-left: 50px;
+      
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .item,navs{
+      background-color: violet;
+      text-align: center;
+      padding-block: 5px;
+      
+    }
+    .navigations{
+      background-color: white;
+      padding-block: 10px;
+      margin-inline: 22px;
+      border-radius: 50px;
+      font-size: 10px;
+      font-weight: bold;
+      
+    }
+    a.nav{
+      cursor: pointer;
+      padding: 9px 21.01px;
+      margin-left: -10px;
+    }
+   .home{
+     border-bottom-left-radius: 8px;
+     border-top-left-radius: 8px;
+     text-decoration: none;
+      color: #12362a;
+     background-color: white;
+     
+   }
+   .insight{
+     border-radius: 25px;
+     color: white;
+     text-decoration: none;
+     background-color: #ff7a01;
+   }
+   .record{
+     color: #12362a;
+     text-decoration: none;
+   }
+   .program{
+     color: #12362a;
+     text-decoration: none;
+   }
+   .chats{
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+     text-decoration: none;
+     color: #12362a;
+   }
+   
+   .home:hover{
+    padding-inline: 0px;
+    margin-left: 12px;
+    margin-right: 14px;
+    font-size: 11px;
+    color: #ff7a01;
+    border-bottom: solid #ff7a01 3px;
+    padding-bottom: 1px;
+    transition: all ease 0.3s;
+    border-bottom-left-radius: 1px;
+   }
+    .record:hover{
+      padding-inline: 0px;
+     margin-left: 12px;
+     margin-right: 14px;
+     font-size: 11px;
+     color: #ff7a01;
+     border-bottom: solid #ff7a01 3px;
+     padding-bottom: 1px;
+     transition: all ease 0.3s;
+   }
+    .program:hover {
+      padding-inline: 0px;
+      margin-left: 12px;
+      margin-right: 14px;
+      font-size: 11px;
+      color: #ff7a01;
+      border-bottom: solid #ff7a01 3px;
+      padding-bottom: 1px;
+      transition: all ease 0.3s;
+    }
+     .chats:hover {
+       padding-inline: 0px;
+       margin-left: 12px;
+       margin-right: 14px;
+       font-size: 11px;
+       color: #ff7a01;
+       border-bottom: solid #ff7a01 3px;
+       padding-bottom: 1px;
+       transition: all ease 0.3s;
+       border-bottom-right-radius: 1px;
+     }
+    .item,profile{
+      background-color:  #232a26;
+    }
+    .you{
+     
+      color: #ff7a01;
+      width: 50px;
+      margin-right: 17px;
+      padding-block: 10px;
+      border-radius: 50px;
+      float: right;
+      width: 37px;
+      
+    }
+    img.user:hover{
+      background-color: #ff7a01;
+      border: solid orangered 2px;
+      border-radius: 50px;
+      transition: all ease .5s;
+    }
+    /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/
+      .insights {
+      background-color: white;
+      height: 500px;
+      margin:0px;
+      padding: 0px;
+    }
+    .container{
+      height: 400px;
+      
+      background-color: ghostwhite;
+      margin:0px;
+      padding: 0px;
+    }
+    .a{
+      display: inline-block;
+    }
+   .twobox{
+      display: inline-block;
+  
+      background-color: white;
+      
+    }
+    
+    .huhu{
+      
+      background-color: white;
+      width: 100%;
+      margin:0px;
+      padding: 0px;
+    }
+    .greenicon{
+      float: left;
+       -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+      padding: 5px;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+    .green{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .greenpic{
+      width: 30px;
+     margin: 5px;
+     
+    }
+    .greenicon p{
+      display: none;
+    }
+    .levels{
+      margin-top: 0px;
+      width: 85%;
+      padding-top: 20px;
+  overflow-x: auto;
+  white-space: nowrap; 
+  height: 40px;
+  float: right;
+  
+    }
+    .levels a{
+      color: black;
+      text-align: center;
+      padding: 10px 15px;
+      margin: 5px;
+      
+      border-radius: 10px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+    .grades{
+      font-weight: bold;
+      color: darkgreen;
+      width: 100%;
+      margin:0px;
+      padding: 0px;
+      float: left;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+     .levels a{
+      display: inline;
+      
+    }
+    
+    
+    .reco{
+      background-color: #12372a;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      padding-block: 10px;
+    }
+    
+    .recs{
+      width: 100%;
+      color: white;
+      
+      margin:0px;
+      padding-top: 10px;
+      padding-bottom: 2px;
+      padding-left: 20px;
+      
+    }
+    
+    .records{
+      margin: 15px;
+      padding: 0px;
+      
+      width: 92%;
+      height: 600px;
+      background-color: white;
+      border-radius: 20px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+    .counts{
+      float: right;
+      color: orangered;
+      background-color: ghostwhite;
+      font-weight: bold;
+      margin-right: 10px;
+      margin-top: -5px;
+      width: 40px;
+      padding: 5px 10px;
+      border-radius: 50px;
+      
+    } 
+    .view{
+    float: right;
+    
+  }
+    .layer1{
+      margin: 10px;
+      
+    }
+    .layer1-2{
+      background-color: #d9d9d9;
+     padding-bottom: 15px;
+     border-radius: 10px;
+     width: 55%;
+     float: right;
+     margin-top: 0px;
+    }
+    .layer1 .pict img{
+      background-color: #d9d9d9 ;
+      padding-inline: 10px;
+      height: 130px;
+      float: left;
+      margin-right: 10px;
+    }
+    .hw{
+      margin-left: 10px;
+      display: inline-block;
+      background-color: #d9d9d9;
+    }
+    .hw p{
+      background-color: #ff7a01;
+      color: white;
+      width: 70px;
+      text-align: center;
+      padding-block: 5px;
+      margin-inline: 5px ;
+    }
+    .contain{
+      margin-top: -10px;
+      background-color: #353535 ;
+      padding-top: 15px;
+      height: 40px;
+      border-radius: 10px;
+    }
+    .hw .hw_rec{
+      margin-left: 20px;
+      
+      float: left;
+      font-weight: bold;
+      font-size:23px;
+      color: white;
+    }
+    .hw small{
+      float: right;
+      margin-right: 5px;
+      color: white;
+    }
+    .bmi{
+      background-color: #36507e;
+      width: 170px;
+      float: right;
+      margin-top : 10px;
+      margin-right: 15px;
+      border-radius: 10px;
+    }
+    .bmme{
+      color: white;
+      
+      float:left;
+      margin-left: 20px;
+      
+      
+    }
+    .bmi_rec{
+      
+      color: white;
+      
+      float: right;
+      font-weight: bold;
+      font-size: 25px;
+      margin: 20px 25px;
+    }
+    .inline{
+      display: inline-block;
+    }
+    .l-age{
+      background-color: #353535 ;
+      height: 60px;
+      
+      width: 70px;
+      float: left;
+      margin-left: 25%;
+      border-radius: 10px;
+      margin-top:-65px;
+    }
+    .l-age .age1 p{
+      color: white;
+      font-weight: bold;
+      padding: 0px;
+      margin: 5px 0px;
+      text-align: center;
+      
+    }
+    .l-age .age2 {
+      color: white;
+      font-weight: bold;
+      padding: 5px 0px;
+      margin: 5px 0px;
+      text-align: center;
+      font-size:23px;
+    }
+    .goal-container{
+      background-color: #49742c;
+      border-radius: 10px;
+      padding: 1px;
+      margin: 10px;
+      margin-top: 210px;
+      height: 100px;
+    }
+    .goal-gain{
+      
+      margin: 0px;
+      
+      padding: 0px;
+      float: left;
+      width: 40%;
+    }
+    .goal-gain p{
+      
+      
+      margin: 10px;
+      font-weight: bold;
+      color: white;
+      
+    }
+    .record-kilogram{
+      background-color: white;
+      padding: 10px 15px 10px 25px;
+      margin-top: -10px;
+      margin-left: 15px;
+      width: 60px;
+      border-radius: 10px;
+      display-flex: center;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold; 
+      font-size: 20px;
+    }
+    .record-kilogran small{
+      
+    }
+    .under-record{
+      width: 300px;
+    }
+    .goal-gain strong{
+       color: #d0dec7;
+      float: left;
+      
+      margin-top: 10px;
+      margin-left: 20px;
+      
+      width: 100px;
+    }
+    .goal-gain .bmi-goal{
+        font-weight: bold;
+        margin-left: 30px;
+        margin-bottom: 5px;
+        width: 34px;
+        float: left;
+        color: white;
+        margin-top: 10px;
+      margin-left: 10px;
+    }
+    .bmi-goal , .small{
+      display:inline;
+      
+    }
+   small.small{
+      color:  #d0dec7;
+   }
+
+    .underw8t{
+      border-bottom: solid white 5px;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+      margin-inline: 20px;
+      margin-top: 20px;
+      padding: 20px;
+      padding-bottom: 5px;
+    }
+    .under{
+      
+      background-color: yellow;
+    }
+    .underw8t .percent-u{
+      display: inline;
+      font-family: bold;
+      
+    }
+    .layer3{
+      
+    }
+    .record-name{
+      float: left;
+      margin-left: 15px;
+      margin-top: -180px;
+      font-weight: bold;
+      border-bottom: solid #12362a 3px;
+      width: 70px;
+    }
+    .ranges{
+      margin-inline: 10px;
+    }
+    .h-bmi-range-record-cont , .h-bmi-for-height-record-cont{
+      height: 50px;
+      background-color: #49742c;
+      margin-top: -15px;
+      margin-bottom: -10px;
+      border-radius: 10px;
+    }
+    .h-bmi-range, .h-bmi-for-height{
+      
+      width: 177px;
+      display: inline-block;
+      
+    }
+    .h-bmi-for-height p ,.h-bmi-range p{
+      margin-top: 0px;
+      font-weight: bold;
+      color: #12362a ;
+    }
+     .h-bmi-range-record , .h-bmi-for-height-record{
+       color: white;
+       
+       font-weight: bold;
+       font-size: 20px;
+       margin-left: 20px;
+       float: left;
+       padding-right: 10px;
+       margin-top :10px;
+     }
+      .h-bmi-range-record-cont small, .h-bmi-for-height-record-cont small{
+        color:  #d0dec7;
+        
+        float: right;
+        margin-right: 25px;
+        margin-top: 15px;
+      }
+      .h-bmi-for-height-record-cont small{
+        margin-right: 45px;
+      }
+       .layer4{
+        
+        margin-top: 25px;
+        
+        
+      }
+      .layer4 h3{
+        margin-top: -5px;
+      }
+      .table1{
+        width: 100%;
+        
+        padding-top: 10px;
+        padding-bottom: 55px;
+        border-radius: 10px;
+        margin-top: -17px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+      }
+      table, th, td{
+        
+        
+      }
+      th{
+        border-radius: 10px;
+          background-color: #353535 ;
+        color: white;
+        
+      }
+      .c1{
+        width:70px;
+      }
+      .dates td{
+        color: orangered;
+      }
+      .gained td{
+        background-color: #49742c;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        align-items: center;
+        text-align: center;
+      }
+      .blank{
+        background-color: transparent;
+        border: none;
+      }
+      .r2-head{
+        height: 40px;
+        background-color: transparent;
+        border-bottom: solid #353535 3px ;
+        color:  #353535 ;
+        border-radius: 0px;
+        background-color: #f4f4f4;
+      }
+      .total{
+        margin-top: -45px;
+      }
+      .total-head{
+        width: 200px;
+        background-color: #193830;
+      }
+      
+.cancel  {
+  float: right;
+  height: 20px;
+  padding: 5px;
+  margin: 0px;
+  cursor: pointer;
+}
+ .form-container {
+  max-width: 100%;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 63%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  
+  z-index: 9;
+  
+  padding: 20px;
+  width:  100%;
+}
+.student-list{
+  background-color: transparent;
+  border-bottom: solid black 1px;
+  border-inline: none;
+  border-top: none;
+  margin: 20px;
+  padding: 10px 20px;
+  padding-bottom: 3px;
+}
+.student-list:hover{
+  color: orangered;
+  font-weight: bold;
+  border-bottom: solid orangered 1px;
+  
+}
+     /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/ /*_____________________________________________*/
+     @media only screen and (min-width: 768px){
+       body{
+         
+       }
+     .you{
+       position: fixed;
+       right:10px;
+       top: 20px;
+     }
+     .head{
+       display: inline-flex;
+    
+    }
+    .header{
+      padding:7px;
+    }
+    .navigations{
+      padding-inline: 12px;
+      padding-block: 12px;
+    }
+    .navs{
+      position: fixed;
+      right: 300px;
+    }
+   
+    .insights {
+      background-color: white;
+      height: 500px;
+      
+      margin:0px;
+      padding: 0px;
+    }
+    .container{
+      height: 400px;
+      
+      background-color: ghostwhite;
+      margin:0px;
+      padding: 0px;
+    }
+    .a{
+      display: inline_block;
+    }
+   .twobox{
+      display: inline-block;
+  
+      background-color: white;
+      
+    }
+    
+    .huhu{
+      
+      background-color: white;
+      width: 100%;
+      margin:0px;
+      padding: 0px;
+    }
+    .greenicon{
+      float: none;
+      box-shadow: none;
+      margin: 0px;
+    }
+    .green{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .greenpic{
+      margin-left: 0px;
+     height: 110px;
+     width: 110px;
+     margin-top: 15px;
+    }
+    .greenicon p{
+      font-size: 20px;
+      font-weight : bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0px;
+    }
+    .levels{
+      
+      padding: 0pc;
+      margin-top: -20px;
+      width: 100%;
+      overflow-x: none;
+      white-space: none;
+      float: none;
+      height: 400px;
+    }
+    .levels a{
+      
+      color: black;
+      text-align: center;
+      padding: 15px 20px;
+      margin: 15px;
+      border-radius: 10px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+    .grades{
+      font-weight: bold;
+      color: darkgreen;
+      width: 20%;
+      margin:0px;
+      padding: 0px;
+      float: left;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+     .levels a{
+      display: block;
+    }
+    
+    
+    .reco{
+      background-color: #12372a;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      padding-block: 10px;
+    }
+    
+    .recs{
+      width: 100%;
+      color: white;
+      
+      margin:0px;
+      padding-top: 10px;
+      padding-bottom: 2px;
+      padding-left: 20px;
+      
+    }
+    
+    .records{
+      margin: 15px;
+      padding: 0px;
+      width: 76%;
+      height: 510px;
+      background-color: white;
+      border-radius: 20px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+    }
+  
+    .layer1{
+      margin: 30px;
+      
+    }
+    .layer1-2{
+      border-radius: 10px;
+      background-color: #d9d9d9;
+      float: right;
+      width: 500px;
+      height: 150px;
+    }
+    .layer1 .pict img{
+      background-color: #d9d9d9 ;
+      padding-inline: 10px;
+      height: 150px;
+      float: left;
+      -webkit-box-shadow: -4px -4px 1px 0px #3E3E3E;
+      box-shadow: -6px -6px 1px 0px #3E3E3E;
+    }
+    .hw{
+      margin-left: 10px;
+      display: inline-block;
+      background-color: #d9d9d9;
+    }
+    .hw p{
+      background-color: #ff7a01;
+      color: white;
+      width: 100px;
+      text-align: center;
+      padding: 5px 15px;
+      margin-inline: 5px ;
+      font-size:20px;
+    }
+    .contain{
+      width: 130px;
+      margin-top: -10px;
+      background-color: #353535 ;
+      padding-top: 15px;
+      height: 60px;
+      margin-inline: 5px;
+    }
+    .hw .hw_rec{
+      margin-left: 20px;
+      margin-top: 10px;
+      text-align: center;
+      float: left;
+      font-weight: bold;
+      font-size:25px;
+      color: white;
+    }
+    .hw small{
+      float: right;
+      margin: 25px 20px;
+      color: white;
+    }
+    .bmi{
+      background-color: #ff7a01;
+      width: 150px;
+      height: 115px;
+      float: right;
+      margin: 20px;
+    }
+    .bmme{
+      
+      
+    }
+    .bmme p {
+      color:  #353535;
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      margin-left: 25px;
+      margin-top: 10px;
+      float: none;
+    }
+    .bmi_rec{
+      
+      color: white;
+      font-weight: bold;
+      font-size: 35px;
+      float: none;
+      margin-top: -20px;
+      margin-left: 40px;
+    }
+    .inline{
+      display: inline-block;
+    }
+   .l-age{
+      
+      float: none;
+      margin-left: 225px;
+      
+      margin-top: 210px;
+    }
+    .goal-container{
+      width: 55%;
+      padding: 1px;
+      margin: 10px;
+      margin-top: -60px;
+      float: right;
+      margin-right: 30px;
+    }
+     .layer3{
+      width: 37%;
+    }
+     .record-name {
+       float: left;
+       margin-left: 30px;
+       margin-top: -80px;
+       font-weight: bold;
+      width: 130px;
+     }
+    .h-bmi-range-record-cont , .h-bmi-for-height-record-cont{
+      height: 60px;
+      
+      
+      border-radius: 10px;
+    }
+    .h-bmi-range, .h-bmi-for-height{
+      background-color: transparent;
+      width: 180px;
+      
+      display: inline-block;
+      margin-left: 35px;
+    }
+    .h-bmi-for-height p ,.h-bmi-range p{
+      margin-top: 0px;
+      font-weight: bold;
+      color: #12362a ;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .h-bmi-range-record , .h-bmi-for-height-record{
+       
+       
+       margin-left: 30px;
+       padding-right: 10px;
+       margin-top :20px;
+     }
+      .h-bmi-range-record-cont small, .h-bmi-for-height-record-cont small{
+     
+        margin-right: 20px;
+        margin-top: 25px;
+      }
+      .h-bmi-for-height-record-cont small{
+        margin-right: 35px;
+      }
+      .layer4{
+        float: right;
+        margin-right: 30px;
+        margin-top: -120px;
+        width: 63%;
+        
+      }
+      .layer4 h3{
+        margin-top: -5px;
+      }
+      .table1{
+        width: 100%;
+        
+        padding-top: 10px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        margin-top: -17px;
+        -webkit-box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+box-shadow: 1px 1px 7px 2px rgba(149, 149, 149, 0.73);
+      }
+      table, th, td{
+        
+        
+      }
+      th{
+        border-radius: 10px;
+          background-color: #353535 ;
+        color: white;
+        
+      }
+      .c1{
+        width:70px;
+      }
+      .dates td{
+        color: orangered;
+      }
+      .gained td{
+        
+        border-radius: 5px;
+        align-items: center;
+        text-align: center;
+      }
+      .blank{
+        background-color: transparent;
+        border: none;
+      }
+      .r2-head{
+        height: 40px;
+        background-color: transparent;
+        border-bottom: solid #353535 3px ;
+        color:  #353535 ;
+        background-color: #f4f4f4
+      }
+      .total{
+        margin-top: -25px;
+      }
+      .total-head{
+        width: 200px;
+        
+      }
+      .form-container {
+  max-width: 100%;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  
+  padding: 20px;
+  width:  100%;
+}
+.cancel  {
+  float: left;
+  height: 20px;
+  padding: 5px;
+  margin: 0px;
+  cursor: pointer;
+}
+     }
